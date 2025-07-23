@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Primeiro Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Minha Marca</h1>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bem-vindo ao meu site!</h2>
+    <p>Este é um site feito com HTML, CSS e JavaScript.</p>
+    <button id="botao-saudacao">Clique aqui</button>
+    <p id="mensagem"></p>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em contato</h2>
+    <form id="form-contato">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu email" required />
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="confirmacao"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
